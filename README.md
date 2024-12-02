@@ -3,8 +3,8 @@
 
 Summary of Findings
 
-*Data Quality:* The dataset was generally clean, with no duplicate entries. However, some negative values were found in the 'Active', 'New deaths', and 'New recovered' columns, which were addressed using median imputation. \
-
+*Data Quality:* The dataset was generally clean, with no duplicate entries. However, some negative values were found in the 'Active', 'New deaths', and 'New recovered' columns, which were addressed using median imputation. 
+\
 *Outliers and Distribution:* Several numerical features, including 'Confirmed', 'Deaths', 'Recovered', 'Active', 'New cases', 'New deaths', and 'New recovered' exhibited outliers and skewed distributions. Log transformation was applied to these features to address the skewness and improve model performance. 
 \
 *Trends:* The analysis revealed an overall upward trend in COVID-19 cases, deaths, and recoveries over time. The Americas and Europe showed the highest cumulative confirmed cases.
